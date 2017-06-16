@@ -175,57 +175,7 @@ Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Buil
       </div>
     </div>
 
-
-    <div id="map"></div>
-    <script>
-      // Note: This example requires that you consent to location sharing when
-      // prompted by your browser. If you see the error "The Geolocation service
-      // failed.", it means you probably did not give permission for the browser to
-      // locate you.
-      var map, infoWindow;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 6
-        });
-        infoWindow = new google.maps.InfoWindow;
-
-        // Try HTML5 geolocation.
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(map);
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map.getCenter());
-        }
-      }
-
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map);
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJpWDSx2Wtn729KGl0GkK2gOFC7tErxUE&callback=initMap">
-    </script>
-
-
-
-<!--     <div class="options row">
+    <div class="options row">
 
       <button id="btn-lock-orientation" class="btn btn--hide options__btn column-25" type="button">
 
@@ -247,8 +197,8 @@ Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Buil
 
 
       </button
-<!-- <!-- <!-- <!-- 
-<!--       ><button id="btn-nightmode" class="btn options__btn column-33" type="button">
+
+      ><button id="btn-nightmode" class="btn options__btn column-33" type="button">
 
         <svg lock="nightmode off" class="btn__icon btn__icon--inactive" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -266,9 +216,9 @@ Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Buil
 
         <svg class="btn__icon btn__icon--active" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
           <circle cx="256" cy="256" r="206" fill="white"/>
-        </svg> --> --> --> --> --> -->
+        </svg>
 
-<!--       </button
+      </button
 
       ><button id="btn-map" class="btn options__btn column-33" type="button">
 
@@ -277,9 +227,9 @@ Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Buil
           <path id="location-icon" d="M256,50c-72.072,0-130.5,58.427-130.5,130.5c0,72.073,57.114,155.833,130.5,281.5
           c73.388-125.666,130.5-209.427,130.5-281.5C386.5,108.427,328.074,50,256,50z M256,224.133c-25.848,0-46.801-20.953-46.801-46.8
           s20.953-46.8,46.801-46.8s46.801,20.953,46.801,46.8S281.848,224.133,256,224.133z" fill="white" />
-        </svg> -->
+        </svg>
 
-<!--       </button
+      </button
 
 
       ><button id="btn-info" class="btn btn-popup options__btn column-33" type="button" data-name='info'>
@@ -295,14 +245,14 @@ Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Buil
 
         </svg>
 
-      </button -->
+      </button
 
     ></div>
 
   </div>
 
 
-<!--   <div id="popup" class="popup">
+  <div id="popup" class="popup">
 
     <div id="popup-content" class="popup__content">
 
@@ -325,7 +275,7 @@ Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Buil
 
       <button id="popup-close" class="popup__close" href='#'>close</button>
 
-    </div> -->
+    </div>
 
   </div>
 
