@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 130 130" style="enable-background:new 0 0 130 130;" xml:space="preserve">
+	 viewBox="-414 216 130 130" style="enable-background:new -414 216 130 130;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#FFDE73;}
 	.st1{fill:#FFDE73;}
 	.st2{font-family:'ArialMT';}
 	.st3{font-size:5px;}
+	.st4{fill:#FFDA00;}
+	.st5{fill:#FBB03B;}
+	.st6{fill:#8CC63F;}
 </style>
 <g id="oL1L2N.tif">
 	
-		<image style="overflow:visible;" width="788" height="788" id="Layer_1" xlink:href="4DB6D7B24D6C6C94.png"  transform="matrix(0.1424 0 0 0.1424 8.5703 8.9235)">
+		<image style="overflow:visible;enable-background:new    ;" width="788" height="788" id="Layer_1" xlink:href="4DB6D7B24D6C6C94.png"  transform="matrix(0.1424 0 0 0.1424 -405.4297 224.9235)">
 	</image>
 </g>
-<circle class="st0" cx="65" cy="65" r="56"/>
-<polyline class="st1" points="23.3,27 26,24 27.6,28.2 "/>
-<polyline class="st1" points="97.4,20 100.5,22.5 97.7,22.8 "/>
-<polyline class="st1" points="11.1,48.6 9,62.3 16.9,56.5 "/>
-<text transform="matrix(1 0 0 1 15.3612 23.5334)" class="st1 st2 st3">HfK</text>
-<text transform="matrix(1 0 0 1 99.3325 18.5)" class="st1 st2 st3">Uni</text>
-<text transform="matrix(1 0 0 1 0.607 47.6667)" class="st1 st2 st3">RCH</text>
+<circle class="st0" cx="-349" cy="281" r="56"/>
+<polyline class="st1" points="-390.7,243 -388,240 -386.4,244.2 "/>
+<polyline class="st1" points="-316.6,236 -313.5,238.5 -316.3,238.8 "/>
+<text transform="matrix(0.7379 -0.6749 0.6749 0.7379 -394.6457 241.9973)" class="st1 st2 st3">HfK</text>
+<text transform="matrix(0.766 0.6428 -0.6428 0.766 -312.6469 229.7765)" class="st1 st2 st3">Uni</text>
+<text transform="matrix(0.3006 -0.9538 0.9538 0.3006 -405.4297 265.3989)" class="st1 st2 st3">RCH</text>
+<g>
+	<polygon id="XMLID_11_" class="st4" points="-388.5,240.2 -386.4,243.9 -390.7,243.9 	"/>
+	<path id="XMLID_4_" d="M-388.5,240.9l1.6,2.7h-3.1L-388.5,240.9 M-388.5,240.2l-2.2,3.7h4.3L-388.5,240.2L-388.5,240.2z"/>
+</g>
+<g>
+	<circle id="XMLID_10_" class="st5" cx="-349.3" cy="279.8" r="6.8"/>
+	<path id="XMLID_6_" d="M-349.3,274.2c3.1,0,5.6,2.5,5.6,5.6c0,3.1-2.5,5.6-5.6,5.6s-5.6-2.5-5.6-5.6
+		C-354.9,276.8-352.4,274.2-349.3,274.2 M-349.3,273.1c-3.7,0-6.8,3-6.8,6.8c0,3.7,3,6.8,6.8,6.8s6.8-3,6.8-6.8
+		C-342.6,276.1-345.6,273.1-349.3,273.1L-349.3,273.1z"/>
+</g>
+<g id="XMLID_1_">
+	<g>
+		<circle id="XMLID_9_" class="st6" cx="-405" cy="274.2" r="6.8"/>
+		<path id="XMLID_5_" d="M-405,268.6c3.1,0,5.6,2.5,5.6,5.6c0,3.1-2.5,5.6-5.6,5.6s-5.6-2.5-5.6-5.6
+			C-410.6,271.2-408.1,268.6-405,268.6 M-405,267.5c-3.7,0-6.8,3-6.8,6.8c0,3.7,3,6.8,6.8,6.8s6.8-3,6.8-6.8
+			C-398.2,270.5-401.3,267.5-405,267.5L-405,267.5z"/>
+	</g>
+	<g>
+		<circle id="XMLID_8_" class="st6" cx="-405" cy="274.2" r="3.3"/>
+		<path id="XMLID_3_" d="M-405,272.1c1.2,0,2.1,0.9,2.1,2.1c0,1.2-0.9,2.1-2.1,2.1s-2.1-0.9-2.1-2.1
+			C-407.1,273.1-406.2,272.1-405,272.1 M-405,271c-1.8,0-3.3,1.5-3.3,3.3c0,1.8,1.5,3.3,3.3,3.3s3.3-1.5,3.3-3.3
+			C-401.7,272.4-403.2,271-405,271L-405,271z"/>
+	</g>
+</g>
+<g>
+	<rect id="XMLID_13_" x="-317.4" y="233.1" class="st5" width="6.6" height="6.6"/>
+	<path id="XMLID_7_" d="M-311.4,233.7v5.4h-5.4v-5.4H-311.4 M-310.8,233.1h-6.6v6.6h6.6V233.1L-310.8,233.1z"/>
+</g>
 </svg>
